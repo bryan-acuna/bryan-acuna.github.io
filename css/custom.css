@@ -24,16 +24,15 @@ a {
 }
 /* Jumbotron */
 .jumbotron {
-    display: flex;
     justify-content: center;
     width: 100%;
     height: auto;
-    padding: 0;
     background: none;
     margin-top: 10px;
-    background-image: url(/images/jumbotron-img.jpg);
+    background-image: url(/images/iphone-image.jpg);
     filter: brightness(80%);
     background-size: cover;
+    min-height: 600px;
 }
 .jumbotron .jumbotron-container {
     display: flex;
@@ -129,3 +128,58 @@ a {
         left: -400%;
     }
 }
+<<<<<<< HEAD
+=======
+.carousel {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+/* Slider */
+#slider {
+    width: 50%;
+    height: fit-content;
+    overflow: hidden;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+>>>>>>> 5027b26b311238b3b492d6611492fd68a240d16a
