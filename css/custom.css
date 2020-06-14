@@ -29,7 +29,7 @@ a {
     height: auto;
     background: none;
     margin-top: 10px;
-    background-image: url(/images/iphone\ image.jpg);
+    background-image: url(/images/iphone-image.jpg);
     filter: brightness(80%);
     background-size: cover;
     min-height: 600px;
