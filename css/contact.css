@@ -130,8 +130,8 @@ a {
   padding: 3em;
 }
 #cu-header {
-  display: flex;
-  height: auto;
+  display: block;
+  flex-direction: row;
   width: 50%;
   font-size: 30px;
   font-weight: bolder;
@@ -152,7 +152,7 @@ a {
   width: 100%;
 }
 .map-box {
-  display: flex;
+  display: block;
   width: 100%;
   height: auto;
   justify-content: center;
