@@ -84,15 +84,26 @@ a {
   height: auto;
   border: #000 solid;
 }
+.au-title {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  width: 100%;
+}
 .au-textbox {
   height: auto;
   width: 50%;
   border: #00f solid;
+  padding: 1em;
 }
 .au-pictures {
   width: 50%;
   height: auto;
   border: red solid;
+}
+.au-bodytext {
+  width: 100%;
+  padding: 3px;
 }
 /* Contact Us */
 .cu-container {
