@@ -83,6 +83,7 @@ a {
   width: 100%;
   height: auto;
   border: #000 solid;
+  background-color: #becae0;
 }
 .au-title {
   display: flex;
@@ -103,7 +104,8 @@ a {
 }
 .au-bodytext {
   width: 100%;
-  padding: 3px;
+  padding: 25px;
+  word-wrap: break-word;
 }
 /* Contact Us */
 .cu-container {
@@ -112,6 +114,7 @@ a {
   width: 100%;
   height: auto;
   border: #000 solid;
+  background-color: #becae0;
 }
 .cu-header {
   display: flex;
@@ -119,20 +122,44 @@ a {
   height: fit-content; 
   align-self: center;
   border: pink solid;
+  margin: 1em;
 }
 .cu-body {
   display: flex;
-  flex-direction: row;
+  width: 100%;
+  height: auto;
+  padding: 1em;
 }
 .cu-weekday {
   display: block;
   width: 50%;
   height: auto;
   border: green solid;
+  margin: 3px;
 }
 .cu-weekend {
   display: block;
   width: 50%;
   height: auto;
   border: green solid;
+  margin: 3px;
+}
+#cu-title {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  width: 100%;
+}
+.map-box {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.map-box iframe {
+  display: flex;
+  width: fit-content;
+  height: auto;
+  padding: 1em;
+  border: none;
 }
