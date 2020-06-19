@@ -18,10 +18,12 @@
     <link href="css/bootstrap/min.css" rel="stylesheet" />
     <link href="css/custom.css" rel="stylesheet" />
     <link href="/css/contact.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
 
   </head>
   <!--Start Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a href ="index.html">
       <img  src="/images/Ecuasystems.png" class="nav-image"/>
     </a>
@@ -109,8 +111,7 @@
 <h4><div id="cu-header">Our Shops</div></h4>
 </div>
 <div class="cu-container">
-    <div class="cu-textbox"></div>
-    <div class="cu-box1">
+    <div id="cu-bodybox">
           <div id="cu-title"><h4>Weekdays</h4></div>
           <div id="cu-body">
             <ul id="cu-list">
@@ -129,10 +130,12 @@
              </ul>
           </div>
           <div id="map-container">
-            <button class="map-box"> Get Directions</button>
+            <form action="https://www.google.com/maps/dir//sunny+flea+market/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x8640b7e015fa1823:0x85d4345626a521e1?sa=X&ved=2ahUKEwjknunUltPpAhWLHM0KHaBRCNMQ9RcwFHoECBUQDg">
+              <button class="map-box">Get Directions</button>
+              </form>
             </div>
     </div>
-    <div class="cu-box2">
+    <div id="cu-bodybox">
         <div id="cu-title"><h4>Weekends</h4></div>
         <div id="cu-body">
           <ul id="cu-list">
@@ -146,7 +149,9 @@
         </ul>
         </div>
         <div id="map-container">
-        <button class="map-box"> Get Directions</button>
+        <form action="https://www.google.com/maps/place/8105+Airline+Dr+k14,+Houston,+TX+77037/data=!4m2!3m1!1s0x8640b7e387cfbd55:0xd32e28dec691961c?sa=X&ved=2ahUKEwj-kqXr_IfqAhVRWq0KHTryDGwQ8gEwAHoECAsQAQ">
+         <button class="map-box">Get Directions</button>
+         </form>
         </div>
     </div>
         <!-- JS, Popper.js, and jQuery -->
@@ -166,3 +171,4 @@
   crossorigin="anonymous"
 ></script>
 </div>
+</body>

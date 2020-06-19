@@ -126,6 +126,7 @@ a {
 .cu-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
   height: auto;
   padding: 3em;
@@ -146,11 +147,10 @@ a {
 }
 #cu-body {
   display: flex;
-  flex-direction: row;
   width: 100%;
+  text-align: center;
   height: auto;
-  padding: 1em;
-  margin: 1em;
+
 }
 #cu-title h4 {
   display: flex;
@@ -170,16 +170,14 @@ a {
   width: fit-content;
   height: auto;
   justify-content: center;
+  background-color: #799fe6;
 }
-.cu-box1 {
+#cu-bodybox {
   display: flex;
   flex-direction: column;
-  width: 50%;
-}
-.cu-box2 {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
+  width: 100%;
+  height: auto;
+  padding: 1em;
 }
 .cu-container ul {
   list-style: none;
