@@ -2,15 +2,34 @@ body {
     font-family: 'Varela', sans-serif;
 }
 /* Nav Bar */
-.nav-container {
+.navbar-main {
+    position: relative;
     display: flex;
-    height: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    
 }
 .nav-image {
     display: flex;
     width: 150px;
     height: 100%;
     padding: 5px;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
 }
 .nav-list {
     display: flex;
@@ -21,9 +40,6 @@ body {
 ul {
     margin: 0;
     padding: 0;
-}
-a {
-    color: #164191;
 }
 /* Body Cards */
 .card-container {
@@ -38,7 +54,6 @@ a {
     height: auto;
     padding: 1em auto;
     justify-content: center;
-    background-color: #022347;
     padding-bottom: 3em;
 }
 .card {
@@ -46,20 +61,20 @@ a {
     width: 100%;
     height: auto;
     justify-content: center;
-    border-color: #4766a0;
+    border: none;
     margin: 1em;
-    box-shadow: #799fe6 3px 3px 4px;
 }
 .card-header {
     display: block;
     width: 100%;
     text-align: center;
     margin: 10px;
-    color: #ffffff;
+    color: #000000;
+    background-color: #ffffff;
 }
 .card-body {
     display: block;
-    background-color: #4766a0;
+    background-color: #022347;
     color: #ffffff;
 }
 .card-text {
