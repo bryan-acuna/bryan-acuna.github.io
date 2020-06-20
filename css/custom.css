@@ -93,6 +93,34 @@ ul {
     text-align: center;
     padding: 3px;
     width: 100%;
-    height: 195px;
+    height: 170px;
+    border: #000000 solid;
 }
-/* About Us */
+/* Repairs */
+.r-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 3px;
+}
+    /* Repairs Leftbox */
+.r-leftbox {
+    display: flex;
+    width: 70%;
+    height: auto;
+    flex-direction: column;
+}
+.r-boxholder {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+    /* Repairs Rightbox */
+.r-rightbox {
+    display: flex;
+    width: 30%;
+    height: auto;
+    justify-content: center;
+    background-image: url(images/quotebackground.jpeg);
+}
