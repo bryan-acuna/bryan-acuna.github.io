@@ -1,5 +1,7 @@
 body {
-    font-family: 'Varela', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    background-color: #D8EBFE;
+    color: #fdfff5;
 }
 /* Nav Bar */
 .navbar-main {
@@ -99,28 +101,98 @@ ul {
 /* Repairs */
 .r-container {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
     padding: 3px;
 }
+.r-h3 {
+    display: block;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #5B79B1;
+}
     /* Repairs Leftbox */
 .r-leftbox {
     display: flex;
-    width: 70%;
+    flex-wrap: wrap;
+    width: 100%;
     height: auto;
     flex-direction: column;
+    padding: 10px;
+}
+.r-leftbox h3 {
+    font-size: 35px;
+    line-height: 2;
+    border-bottom: #111b70 solid;
+    text-align: center;
+    width: 50%;
 }
 .r-boxholder {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
+    height: auto;
     justify-content: space-evenly;
 }
-    /* Repairs Rightbox */
-.r-rightbox {
+.r-boxholder p {
+    color: #fdfff5;
+}
+.r-textbox1 {
     display: flex;
-    width: 30%;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
     height: auto;
+    padding: 5px;
+    background-color: #111b70;
+    margin: 5px;
+    text-align: left;
+    
+}
+.r-textbox2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 5px;
+    background-color: #111b70;
+    margin: 5px;
+    text-align: left;
+}
+.r-textbox3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 5px;
+    background-color: #111b70;
+    margin: 5px;
+    text-align: left;
+}
+#r-subtitles {
+    display: block;
+    width: 100%;
     justify-content: center;
-    background-image: url(images/quotebackground.jpeg);
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 28px;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.r-boxholder p {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+    /* Repairs Rightbox */
+.fq-textbox {
+    display: block;
+    width: 100%;
+    text-align: center;
 }
