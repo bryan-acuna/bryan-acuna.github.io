@@ -54,22 +54,21 @@ ul {
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-    padding: 1em auto;
     justify-content: center;
-    padding-bottom: 3em;
+    padding: 5em;
 }
 .card {
     display: flex;
-    width: 100%;
-    height: fit-content;
-    justify-content: center;
+    width: fit-content;
+    height: auto;
     border: none;
-    margin: 1em;
 }
 .card-header {
     display: block;
     width: 100%;
     text-align: center;
+    border: none;
+    background: none;
     margin: 10px;
     color: #edf059;
 }
