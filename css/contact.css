@@ -145,6 +145,7 @@ padding: 1em;
 }
 .cu-container li {
   font-size: 22px;
+  font-family: 'Cabin', sans-serif;
 }
 #cu-list {
   display: flex;
