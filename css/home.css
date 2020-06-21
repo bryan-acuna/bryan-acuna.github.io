@@ -70,7 +70,9 @@ ul {
     border: none;
     background: none;
     margin: 2em;
-    color: #000000;
+    color: #d62626;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;    
 }
 .card-body {
     display: block;
@@ -85,6 +87,10 @@ ul {
     width: 100%;
     text-align: center;
     color: #6e7a94;
+    font-weight: bolder;
+    font-size: 28px;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .card-img {
     display: block;
@@ -110,7 +116,7 @@ ul {
 .r-h3 {
     display: block;
     width: 100%;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     color: #d62626;
@@ -194,9 +200,50 @@ ul {
     height: auto;
     padding: 20px;
 }
-    /* Repairs Rightbox */
-.fq-textbox {
-    display: block;
+    /* Free Estimates Box */
+.fq-container {
+    display: flex;
+    flex-direction: column;
+    margin: 4em;
     width: 100%;
     text-align: center;
+    background: #1a2139 ;
 }
+.fq-container h4 {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #6e7a94;
+    font-size: 30px;
+}
+.fq-container p {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 19px;
+    padding: 2em;
+}
+/* Button CSS */
+.example_e {
+    border: none;
+    background: #2e395f;
+    color: #dee2e9 !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    font-family: 'Cabin', sans-serif;
+    }
+.example_e:hover {
+    color: #1a2139 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: #748ebb;
+    -webkit-box-shadow: 0px 5px 40px -10px #526fa1;
+    -moz-box-shadow: 0px 5px 40px -10px #748ebb;
+    transition: all 0.3s ease 0s;
+    font-family: 'Cabin', sans-serif;
+    }

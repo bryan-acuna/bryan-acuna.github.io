@@ -8,24 +8,22 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!--Home Page CSS-->
-    <link href="css/contact.css" rel="stylesheet"/>
+    <link href="css/home.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <!-- CSS only -->
-    <link  rel="stylesheet"
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"/>
     <link href="css/bootstrap/min.css" rel="stylesheet" />
-    <link href="css/custom.css" rel="stylesheet" />
-    <link href="/css/contact.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
-
+    <link href="css/contact.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Josefin+Sans:ital,wght@1,600&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
   </head>
   <!--Start Navbar-->
-  <body>
-    <nav class="navbar-main">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a href ="index.html">
-      <img src="/images/Ecuasystems.png" class="nav-image"/>
+      <img  src="/images/Ecuasystems.png" class="nav-image"/>
     </a>
     <button
       class="navbar-toggler"
@@ -44,7 +42,6 @@
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
-            href="phone.html"
             id="navbarDropdown"
             role="button"
             data-toggle="dropdown"
@@ -54,9 +51,9 @@
             Phones
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="iphone.html">Apple</a>
+            <a class="dropdown-item" href="apple.html">Apple</a>
             <a class="dropdown-item" href="samsung.html">Samsung</a>
-            <a class="dropdown-item" href="phone.html">Others</a>
+            <a class="dropdown-item" href="repairs.html">Others</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -89,13 +86,14 @@
       for over 10 years
   </div>
 <div class="au-container">
-    
     <div class="au-textbox">
         <h4><div class="au-title">Contact Us</div></h4>
     <div class="au-body">
         <p id="au-textbox">
             <h5><div id="au-smalltitle">Phone Number</div></h5> 
                 281-793-1735
+                <br>
+                832-890-7762
         </p>
         <p id="au-textbox">
             <h5><div id="au-smalltitle">Email</div></h5> 
@@ -105,13 +103,16 @@
         </p>
     </div> 
     </div>
-      <div class="au-pictures">picture <br> picture</div>
+      <div class="au-pictures">
+        <img src="/images/local-img.jpg">
+        <img src="images/fleamarket-img.jpg">
+      </div>
 </div>
 <div class= "cu-headerbox">
 <h4><div id="cu-header">Our Shops</div></h4>
 </div>
 <div class="cu-container">
-    <div id="cu-bodybox">
+    <div class="w-day-box">
           <div id="cu-title"><h4>Weekdays</h4></div>
           <div id="cu-body">
             <ul id="cu-list">
@@ -130,12 +131,12 @@
              </ul>
           </div>
           <div id="map-container">
-            <form action="https://www.google.com/maps/dir//sunny+flea+market/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x8640b7e015fa1823:0x85d4345626a521e1?sa=X&ved=2ahUKEwjknunUltPpAhWLHM0KHaBRCNMQ9RcwFHoECBUQDg">
-              <button class="map-box">Get Directions</button>
-              </form>
+            <div class="button_cont" align="center"><a class="example_e"
+              href="https://www.google.com/maps/place/8103+Airline+Dr,+Houston,+TX+77037/@29.8787739,-95.3918352,17z/data=!3m1!4b1!4m5!3m4!1s0x8640b7e39e19e14f:0x95badfc95b944ee2!8m2!3d29.8787739!4d-95.3896465">
+              Our Weekday Location </a></div>  
             </div>
-    </div>
-    <div id="cu-bodybox">
+          </div>
+          <div class="w-end-box">
         <div id="cu-title"><h4>Weekends</h4></div>
         <div id="cu-body">
           <ul id="cu-list">
@@ -145,13 +146,13 @@
           <ul id="cu-list">
             <li>8-6</li>
             <li>8-6</li>
-
         </ul>
         </div>
         <div id="map-container">
-        <form action="https://www.google.com/maps/place/8105+Airline+Dr+k14,+Houston,+TX+77037/data=!4m2!3m1!1s0x8640b7e387cfbd55:0xd32e28dec691961c?sa=X&ved=2ahUKEwj-kqXr_IfqAhVRWq0KHTryDGwQ8gEwAHoECAsQAQ">
-         <button class="map-box">Get Directions</button>
-         </form>
+          <div class="button_cont" align="center"><a class="example_e"
+            href="https://www.google.com/maps/place/Sunny+Flea+Market/@29.886231,-95.3977766,17z/data=!3m1!4b1!4m5!3m4!1s0x8640b7e015fa1823:0x85d4345626a521e1!8m2!3d29.886231!4d-95.3955879">
+            Our Weekend Location </a></div>  
+        </div>
         </div>
     </div>
         <!-- JS, Popper.js, and jQuery -->
