@@ -11,18 +11,16 @@ body {
 .card-deck {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     width: 100%;
     height: auto;
-    align-items: center;
+    justify-content: center;
     padding: 5em;
 }
 .card {
     display: flex;
     width: 100%;
-    max-width: 350px;
     height: auto;
-    margin: 1em;
+    border: none;
 }
 .card-header {
     display: block;
@@ -37,33 +35,20 @@ body {
 }
 .card-body {
     display: block;
-    height: auto;
     background-color: #1a2139;
     color: #ffffff;
 }
 .card-text {
-    display: flex;
-    flex-direction: column;
-    width: 100%; 
+    display: block;
 }
 .card-title {
     display: block;
     width: 100%;
-    font-size: 25px;
-    font-weight: bold;
     text-align: center;
     color: #6e7a94;
-    font-family: 'Josefin Sans', sans-serif;
 }
 .card-img {
     display: block;
     width: 100%;
-}
-.card ul {
-    list-style: none;
-}
-.card li {
-    font-size: 16px;
-    padding: 2px;
-    text-align: center;
+    height: 200px;
 }
