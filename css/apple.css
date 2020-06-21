@@ -6,7 +6,7 @@ body {
 .card-container {
     display: flex;
     width: 100%;
-    height: auto;
+    height: fit-content;
 }
 .card-deck {
     display: flex;
