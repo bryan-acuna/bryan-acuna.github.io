@@ -43,6 +43,25 @@ ul {
     margin: 0;
     padding: 0;
 }
+/* Carousel */
+.carousel-container {
+   display: flex;
+   width: 100%;
+   height: auto;
+   justify-content: center;
+   padding-top: 1em;
+   
+}
+.carousel {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
 /* Body Cards */
 .card-container {
     display: flex;
@@ -206,8 +225,9 @@ ul {
     flex-direction: column;
     margin: 4em;
     width: 100%;
+    height: auto;
     text-align: center;
-    background: #1a2139 ;
+    background: #1a2139;
 }
 .fq-container h4 {
     display: block;
@@ -247,3 +267,55 @@ ul {
     transition: all 0.3s ease 0s;
     font-family: 'Cabin', sans-serif;
     }
+
+/* Footer */
+.main-footer {
+    display: block;
+    position: static;
+    background-color: #dee2e9;
+    bottom: 0;
+    width: 100%;
+    height: auto; 
+  }
+.footer-title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1a2139;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.footer-title:before,
+.footer-title:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+} 
+.footer-title:after {
+    margin: 0 0 0 20px;
+}
+.footer-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    color: #1a2139;
+}
+.footer-body p {
+    display: flex;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    justify-content: center;
+}
+.button-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.footer-button1 button {
+    background-image: url(/images/facebook-image.png);
+}
