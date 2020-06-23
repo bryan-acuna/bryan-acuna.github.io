@@ -102,7 +102,7 @@ padding: 1em;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  max-width: 50%;
+  width: 100%;
   height: auto;
   padding: 1em;
 }
@@ -136,11 +136,11 @@ padding: 1em;
 }
 .w-end-box {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  max-width: 50%;
+  width: 100%;
   height: auto;
   padding: 1em;
-  justify-content: center;
 }
 .cu-container ul {
   list-style: none;
