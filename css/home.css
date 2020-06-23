@@ -315,7 +315,14 @@ ul {
     display: flex;
     width: 100%;
     height: auto;
+    justify-content: center;
 }
-.footer-button1 button {
-    background-image: url(/images/facebook-image.png);
+.footer-button {
+    background: none;
+    height: auto;
+    border: none;
+}
+.footer-button img {
+    width: 33px;
+    height: 33px;
 }
